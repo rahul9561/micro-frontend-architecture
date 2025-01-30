@@ -1,0 +1,47 @@
+/* styles.css */
+.app-container {
+  padding: 20px;
+}
+
+.compose-button {
+  margin-bottom: 20px;
+}
+
+.email-list {
+  margin-top: 20px;
+}
+
+.email-item {
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.email-subject {
+  font-weight: bold;
+}
+
+.email-sender {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.email-view {
+  margin-top: 20px;
+}
+
+.compose-email-modal {
+  position: fixed;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: white;
+  padding: 20px;
+  border: 1px solid #ccc;
+  z-index: 1000;
+}
+
+button {
+  margin-top: 10px;
+}
