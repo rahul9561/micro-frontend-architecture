@@ -7,12 +7,12 @@ export default defineConfig({
     react(),
     federation({
       name: "chatApp",
-      filename: "remoteEntry.js", // This should match the path in your main app's config
+      filename: "remoteEntry.js", 
       exposes: {
-        "./ChatApp": "./src/App", // Ensure this path is correct
+        "./ChatApp": "./src/App", 
       },
       remotes: {
-        mainApp: "http://localhost:5000/assets/remoteEntry.js", // Add main-app as remote
+        mainApp: "http://localhost:5000/assets/remoteEntry.js", 
       },
       shared: ['react', 'react-dom'],
     }),
@@ -38,7 +38,7 @@ export default defineConfig({
     cssCodeSplit: false,
   },
   server: {
-    port: 5001, // Ensure this is set to the correct port
+    port: 5001, 
     cors: true,
   
   },

@@ -12,7 +12,7 @@ export default defineConfig({
         "./EmailApp": "./src/App.jsx", 
       },
       remotes: {
-        mainApp: "http://localhost:5000/assets/remoteEntry.js", // Add main-app as remote
+        mainApp: "http://localhost:5000/assets/remoteEntry.js", 
       },
       shared: ["react", "react-dom"],
     }),
@@ -38,7 +38,7 @@ export default defineConfig({
     cssCodeSplit: false,
   },
   server: {
-    port: 5002, // Ensure this is set to the correct port
+    port: 5002, 
     cors: true,
   
   },

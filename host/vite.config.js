@@ -12,14 +12,14 @@ export default defineConfig({
         emailApp: "http://localhost:5002/assets/remoteEntry.js",
       },
       exposes: {
-        "./Button": "./src/design-system/Button.jsx", // Ensure file has .jsx extension
+        "./Button": "./src/design-system/Button.jsx", 
       },
       shared: {
         react: {
           singleton: true,
           requiredVersion: "^18.0.0",
           strictVersion: false,
-          eager: true, // Important: This prevents esbuild errors
+          eager: true, 
         },
         "react-dom": {
           singleton: true,
