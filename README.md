@@ -40,7 +40,9 @@ This **Proof of Concept (POC)** demonstrates a **Micro-Frontend Architecture** u
    ```
 3. **Run all apps simultaneously:**
    ```sh
-   cd main-app && pnpm run build-watch
+   cd chat-app && pnpm run build
+   cd email-app && pnpm run build
+   cd main-app && pnpm run build
    ```
 
 ---
